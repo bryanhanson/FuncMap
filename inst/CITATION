@@ -1,0 +1,16 @@
+
+# CITATION file
+
+citHeader("To cite package 'FuncMap' in publications use:")
+
+desc <- packageDescription("FuncMap")
+year <- sub(".*(2[[:digit:]]{3})-.*", "\\1", desc$Date)
+vers <- paste("R package version", desc$Version)
+
+citEntry(entry = "Manual",
+	title = "FuncMap: Hive plots of R package function calls",
+	author = personList(as.person("Bryan A. Hanson")),
+	year = year,
+	note = vers,
+	textVersion = paste("Bryan A. Hanson (", year, ") FuncMap: Hive plots of R package function calls. ",
+		vers, sep = ""))
