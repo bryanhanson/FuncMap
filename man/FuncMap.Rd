@@ -43,7 +43,7 @@ A list of two data frames:
 \item{ curves }{Coordinates and line widths for drawing the edges, which are spline curves representing the calls.}
 }
 \references{
-The hive plot concept was developed by Martin Krzywinski (mkweb.bcgsc.ca/linnet/) and inspired this package.
+The hive plot concept was developed by Martin Krzywinski (www.hiveplot.com) and inspired this package.
 }
 \author{
 Bryan A. Hanson <hanson@depauw.edu>
