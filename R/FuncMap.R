@@ -26,7 +26,7 @@ function(fwb = foodweb, pkg = "none",
 	for (n in 1:length(tot)) if (tot[n] == 0) tot[n] <- NA # for standalones
 	mid <- inc/out
 
-	# properly interpreted, use mid assign function to an axis:
+	# properly interpreted, use mid to assign function to an axis:
 	# mid = 0 is a top level function (source)
 	# mid = Inf is a bottom level function (sink)
 	# mid = 0/0 gives NaN, these are functions that neither
