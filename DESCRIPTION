@@ -1,8 +1,8 @@
 Package: FuncMap
 Type: Package
 Title: Hive Plots of R Package Function Calls
-Version: 1.0-1
-Date: 2011-12-30
+Version: 1.0-2
+Date: 2013-03-29
 Author: Bryan A. Hanson DePauw University, Greencastle Indiana USA
 Maintainer: Bryan A. Hanson <hanson@depauw.edu>
 Description: FuncMap analyzes the function calls in an R package and creates a hive plot of the calls, dividing them among functions that only make outgoing calls (sources), functions that have only incoming calls (sinks), and those that have both incoming calls and make outgoing calls (managers).  Function calls can be mapped by their absolute numbers, their normalized absolute numbers, or their rank.  FuncMap should be useful for comparing packages at a high level for their overall design.  Plus, it's just plain fun.  The hive plot concept was developed by Martin Krzywinski (www.hiveplot.com) and inspired this package.
