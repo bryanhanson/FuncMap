@@ -11,8 +11,8 @@ FuncMap analyzes the function calls in an R package and creates a hive plot of t
 \tabular{ll}{
 Package: \tab FuncMap\cr
 Type: \tab Package\cr
-Version: \tab 1.0-2\cr
-Date: \tab 2013-03-29\cr
+Version: \tab 1.0-3\cr
+Date: \tab 2015-01-13\cr
 License: \tab GPL-3 \cr
 LazyLoad: \tab yes\cr
 }
