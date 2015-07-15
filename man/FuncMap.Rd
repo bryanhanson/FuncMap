@@ -62,6 +62,5 @@ fw <- foodweb(where = "package:lattice", charlim = 20, cex = 0.5, lwd = 1)
 ans <- FuncMap(fwb = fw, pkg = "lattice", method = "abs")
 }
 
-\keyword{ utilities }
 \keyword{ hplot }
 

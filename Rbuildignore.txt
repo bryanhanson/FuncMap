@@ -1,0 +1,4 @@
+README.md
+.Rhistory
+Rbuildignore.txt
+gitignore.txt
